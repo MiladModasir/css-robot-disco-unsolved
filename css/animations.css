@@ -1,0 +1,141 @@
+@keyframes robot-eye-left{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(2);
+  }
+}
+
+@keyframes robot-eye-right{
+  
+  0%{
+    transform: scale(0.3); 
+  } 
+  25%{
+  transform:rotate(200deg);
+  }
+  50%{
+    left: 250px;
+    transform:scaleX(0.5) matrix(20px);
+    /* transform:matrix(20px); */
+  }
+  75%{
+    /* top: 50px; */
+    left: 250px;
+    transform:scale(0.6);
+  }
+  100%{
+    right: 250px;
+    /* top: 40px; */
+    transform: scale(1.3);
+  }
+}
+
+
+@keyframes robot-ear-left{
+  
+  0%{
+  right: 400px;
+  
+  }
+  25%{
+    color: aqua;
+  }
+  50%{
+  transform:rotate(20deg);
+    
+  }
+  75%{
+  background-color: aqua;
+  }
+  100%{
+  opacity: 0;
+  }
+}
+@keyframes robot-ear-right{
+  0%{
+    right: 400px;
+    border-right: 60px solid transparent;
+      border-top: 60px solid green;
+    
+    }
+    25%{
+      border-left: 60px solid green;
+    }
+    50%{
+    transform: matrix(20px);
+    border-bottom: 60px solid green;
+      
+    }
+    75%{
+    transform: scale(1.2);
+    }
+    100%{
+    rotate: 360deg;
+    }
+}
+
+@keyframes robot-teeth{
+  0%{
+    transform:scaleY(0.6);
+  }
+  25%{
+    transform: scaleX(2);
+  }
+  50%{
+    transform: rotateY(80deg);
+    transform: translateY(20px);
+  }
+  75%{
+    transform: rotateX(50deg);
+    transform: translateX(20px);
+  } 
+  100%{
+    transform:rotate(50deg);
+    transform: translateZ(20px);
+  }
+}
+
+  @keyframes robot-hair-one{
+  0%{
+    transform:scaleY(0.5);
+  }
+  25%{
+    transform: scaleX(1.2);
+  }
+  50%{
+    transform: rotateY(80deg);
+    transform: translateY(20px);
+  }
+  75%{
+    transform: rotateX(50deg);
+    transform: translateX(20px);
+  } 
+  100%{
+    transform:rotate(10deg);
+    transform: translateZ(20px);
+  }
+} 
+
+@keyframes robot-hair-two{
+  from{
+    transform: scale(1.9);
+    background-color: aliceblue;
+  }
+  to{
+    transform:rotate(180deg);
+  }
+}
+
+@keyframes robot-hair-three{
+  from{
+    transform:matrix(10px);
+    background-color: blue;
+  }
+  
+  to{
+    transform: rotate(120deg);
+  }
+}
+
